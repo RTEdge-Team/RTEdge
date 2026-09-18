@@ -1,0 +1,3 @@
+Model,Validation_MAE_s,Validation_RMSE_s,Validation_R2,Test_MAE_s,Test_RMSE_s,Test_R2
+Linear Regression,445.09,571.16,0.4873,426.9,550.99,0.4659
+Random Forest,404.35,532.81,0.5538,391.16,510.44,0.5416

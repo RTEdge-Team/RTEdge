@@ -1,5 +1,134 @@
-venv/
-.env
-__pycache__/
-*.pyc
+# ============================================================
+# RTEdge - MATLAB / Simulink / ML Project
+# ============================================================
+
+# ------------------------------------------------------------
+# MATLAB temporary / backup files
+# ------------------------------------------------------------
+*.asv
+*.autosave
+*.m~
+*.mex*
+*.p
+*.prj~
+*.bak
+
+# MATLAB editor / generated temporary files
+*.mlx~
+*.mat~
+*.slx~
+*.mdl~
+*.fig~
+
+# ------------------------------------------------------------
+# Simulink generated / cache files
+# ------------------------------------------------------------
+*.slxc
+slprj/
+**/slprj/
+_simulink_autosave/
+codegen/
+**/codegen/
+cache/
+**/cache/
+work/
+**/work/
+
+# Simulink generated folders
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+*_simulink/
+*_build/
+
+# ------------------------------------------------------------
+# MATLAB generated figures
+# ------------------------------------------------------------
+*.fig
+
+# ------------------------------------------------------------
+# Large MATLAB data files & Models
+# ------------------------------------------------------------
+# Raw datasets
+**/data/nasa_raw/*.mat
+
+# Processed / generated datasets & trained models inside subfolders
+**/05_dataset_generation/*.mat
+**/05_dataset_generation/*model*.mat
+**/05_dataset_generation/*Model*.mat
+**/05_dataset_generation/*analysis*.mat
+**/05_dataset_generation/*results*.mat
+
+# Catch-all: ignore all .mat files everywhere (uncomment if you never want .mat in git)
+# *.mat
+
+# ------------------------------------------------------------
+# Generated CSV results & exports
+# ------------------------------------------------------------
+**/05_dataset_generation/*_results.csv
+**/05_dataset_generation/*_comparison.csv
+**/05_dataset_generation/*_metrics.csv
+**/05_dataset_generation/*_importance.csv
+**/05_dataset_generation/*_prediction_results.csv
+
+# ------------------------------------------------------------
+# Generated plots / exports
+# ------------------------------------------------------------
+**/05_dataset_generation/*.png
+**/05_dataset_generation/*.jpg
+**/05_dataset_generation/*.jpeg
+
+# ------------------------------------------------------------
+# MATLAB preferences / local configuration
+# ------------------------------------------------------------
+pathdef.m
+.matlab/
+.mltbx_cache/
+
+# ------------------------------------------------------------
+# Operating system files
+# ------------------------------------------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ------------------------------------------------------------
+# IDE / editor files
+# ------------------------------------------------------------
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------------------------------------
+# Python / Virtual Environments
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# Logs & temporary files
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.temp
