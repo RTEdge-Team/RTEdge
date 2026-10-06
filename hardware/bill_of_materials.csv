@@ -1,0 +1,18 @@
+Item,Qty,Unit cost (INR),Cost (INR),Function in the rig
+LG INR18650MJ1 Li-ion cell (3.4 Ah),2,410,820,Cells under test; one is discharged while the other is recharged
+ATORCH DL24P 180 W electronic load,1,5700,5700,Draws the commanded current; measures voltage (4-wire) and current; controlled over USB
+DS18B20 waterproof temperature probe,2,100,200,Cell-surface and ambient temperature
+TP4056 Type-C charging module with protection,2,30,60,CC-CV recharge to 4.2 V between runs
+"5 V, 2 A USB power adapter",1,150,150,Supply for the charging modules
+18650 single-cell holder,2,25,50,Secure cell connection
+10 A glass fuse with inline fuse holder,2,40,80,Short-circuit protection on the cell positive lead
+"18 AWG silicone wire (red and black, per metre)",4,35,140,Low-resistance power path
+XT30 connector pair,3,40,120,Polarised quick-disconnect between cell and load
+WAGO 221 lever connector,5,35,175,Tool-free power and sensor joints
+Breadboard (400 points),1,70,70,DS18B20 wiring and 4.7 kOhm pull-up
+Jumper wire set (40 pieces),1,60,60,Sensor wiring to the Raspberry Pi GPIO
+USB data cable for the electronic load,1,100,100,Raspberry Pi to DL24P data link
+Li-ion fire-resistant safety bag,1,280,280,Containment during unattended runs
+"microSD card, 32 GB",1,400,400,Raspberry Pi OS and data storage
+Total,,,8405,
+Raspberry Pi 5 (available in the department),1,0,0,Replays the load profile; enforces safety limits; logs at 1 Hz
